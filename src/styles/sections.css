@@ -1,0 +1,27 @@
+.section {
+  padding-block: var(--section-y);
+}
+
+.section--surface { background: var(--color-surface); }
+
+.section__head {
+  max-width: 680px;
+  margin-bottom: var(--space-8);
+}
+
+.section__head--center {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.section__head .eyebrow { margin-bottom: var(--space-3); }
+.section__head h2 + p { margin-top: var(--space-4); }
+.section__head--center .lead { margin-inline: auto; }
+
+.placeholder {
+  min-height: 60vh;
+  display: grid;
+  align-content: center;
+}
+
+.placeholder .eyebrow { margin-bottom: var(--space-3); }
